@@ -17,10 +17,10 @@ import java.lang.*;
 	         System.out.println(Thread.currentThread().getName() + "  " + i);
 	         try {
 	        	 
-	        	Thread t2013 = new Thread();
-	        	Thread t2014 = new Thread();
-	        	Thread t2016 = new Thread();
-	        	Thread t2017 = new Thread();
+	        Thread t2013 = new Thread();
+	        Thread t2014 = new Thread();
+	        Thread t2016 = new Thread();
+	        Thread t2017 = new Thread();
 	            t2013.start();
 	            t2014.start();
 	            t2016.start();
@@ -33,7 +33,6 @@ import java.lang.*;
 	         }
 	         
 	         try {
-	        	 
 	        	Thread t2013 = new Thread();
 		        Thread t2014 = new Thread();
 		        Thread t2016 = new Thread();
@@ -43,7 +42,7 @@ import java.lang.*;
 		        t2016.join();
 		        t2017.join();
 	             
-	             System.out.println("Título" + "Gênero" + "Subgênero");
+	             System.out.println("TÃ­tulo" + this.Thread(i) + "GÃªnero" + this.Thread(i) + "SubgÃªnero" + this.Thread(i));
 	             
 	         } catch (InterruptedException ex) {
 	             ex.printStackTrace();
